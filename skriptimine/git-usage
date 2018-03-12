@@ -1,0 +1,14 @@
+#as root:
+install -> apt install git
+#as user first time:
+
+a)add username, email, editor
+git config --global user.name "user.name"
+git config --global user.email "email@goes.here"
+git config --global core.editor 'editor goes here'
+
+b)create folder where scripting
+
+c)enter folder
+
+d)make local repo while in the folder via 'git init'
